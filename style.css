@@ -291,3 +291,64 @@ a strong {
   font-size: 16px;
   margin-right: 20px;
 }
+
+@media screen and (max-width: 480px) {
+  nav a {
+    margin: 30px 10px;
+  }
+
+  .intro {
+    top: 35%;
+  }
+
+  h1 {
+    font-size: 70px;
+    padding-bottom: 100px;
+  }
+
+  .fav_img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .fav_img img {
+    width: 100px;
+    height: 100px;
+    padding: 0 4px 7px 4px;
+  }
+
+  .fav_img div {
+    margin: 0 2px 4px 1px;
+    padding: 5px 2px;
+    background-color: #fff;
+  }
+
+  .fav_img p {
+    font-size: 12px;
+  }
+
+  #window4 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #window4 h2 {
+    font-size: 30px;
+  }
+
+  #window4 .goal_h2 {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    /* border: 1px solid red; */
+  }
+
+  .goal_1 {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+
+  .goal_2 {
+    font-size: 16px;
+  }
+}
